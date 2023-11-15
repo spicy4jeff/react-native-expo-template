@@ -19,15 +19,24 @@ import Register from "../screens/auth/Register";
 import ForgetPassword from "../screens/auth/ForgetPassword";
 import { AuthContext } from "../provider/AuthProvider";
 
-// Better put your these secret keys in .env file
+// // Better put your these secret keys in .env file
+// const firebaseConfig = {
+//   apiKey: "",
+//   authDomain: "",
+//   databaseURL: "",
+//   projectId: "",
+//   storageBucket: "",
+//   messagingSenderId: "",
+//   appId: "",
+// };
+
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  databaseURL: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
+  apiKey: "AIzaSyCXG_A-0IBGT57xSMeyEw9o64TjWfZV46w",
+  authDomain: "meowmeow-9cd74.firebaseapp.com",
+  projectId: "meowmeow-9cd74",
+  storageBucket: "meowmeow-9cd74.appspot.com",
+  messagingSenderId: "778378041333",
+  appId: "1:778378041333:web:c36dfe6a3b19f4941f72bc"
 };
 
 if (getApps().length === 0) {
